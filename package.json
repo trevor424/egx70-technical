@@ -1,0 +1,16 @@
+{
+  "name": "egx70-technical",
+  "version": "1.0.0",
+  "description": "EGX 70 stocks technical analysis data (RSI, MACD, MA20, MA50) with live server and Excel export",
+  "main": "egx70_server.js",
+  "scripts": {
+    "start": "node egx70_server.js",
+    "export": "node egx70_technical.js"
+  },
+  "keywords": ["egx", "egx70", "egyptian-exchange", "stocks", "technical-analysis", "rsi", "macd"],
+  "license": "MIT",
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "yahoo-finance2": "^3.13.0"
+  }
+}
